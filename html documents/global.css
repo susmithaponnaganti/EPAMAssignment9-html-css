@@ -1,0 +1,49 @@
+.bg
+{
+margin:0;
+padding:0;
+width:100%;
+height:100vh;
+
+
+}
+.sign-up-form
+{
+width: 300px;
+box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+background: #fff;
+padding: 20px;
+margin: 10% auto 0;
+text-align: center;
+
+
+}
+.sign-up-form h1
+{
+color: #1E90FF;
+margin-bottom: 30px;
+
+}
+
+hr {
+      width: 100%;    
+      height: 1px;
+
+      margin-left: auto;
+      margin-right: auto;
+      background-color: #808080;
+      }
+
+.span.psw {
+  float: left;
+  padding-top: 16px;
+  
+}
+
+
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+
+  }
